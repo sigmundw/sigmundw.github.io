@@ -11,7 +11,7 @@ redirect_from:
 <div style="border-top: 3px solid #eee; margin: 20px 0;"></div>
 
 ### Climate Impacts on the Length of Sea Ice Season and Ecosystem Response
-<img src="https://sigmundw.github.io/images/IC_change.png" alt="IC Image" width="260" align="right" style="margin-left: 20px;"/>
+<img src="https://sigmundw.github.io/images/IC_change.png" alt="IC Image" width="250" align="right" style="margin-left: 20px;"/>
 
 **Supervisor:** Prof. Paul Myers, [pmyers@ualberta.ca](mailto:pmyers@ualberta.ca)
 **Duration:** July 2024 – October 2024
