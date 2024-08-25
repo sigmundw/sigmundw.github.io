@@ -37,12 +37,12 @@ redirect_from:
 <div style="border-top: 3px solid #eee; margin: 20px 0;"></div>
 
 ### Anthropogenic Climate Change Impact on Runoff
-<img src="https://sigmundw.github.io/images/cuntan.png" alt="Cuntan Image" width="300" align="right" style="margin-left: 20px;"/>
+
 
 **Supervisor:** Prof. Buda Su, [subd@nuist.edu.cn](mailto:subd@nuist.edu.cn)
 
 **Duration:** September 2022 – February 2024
-
+<img src="https://sigmundw.github.io/images/cuntan.png" alt="Cuntan Image" width="300" align="right" style="margin-left: 20px;"/>
 - Constructed a Random Forest model using temperature and precipitation under different scenarios to predict runoff patterns.
 - Evaluated the anthropogenic climate change on runoff by comparing discharge under “anthropogenic + natural” forcing and the discharge under “natural” forcing.
 - Identified the shifts in annual, monthly and extreme discharge patterns.
