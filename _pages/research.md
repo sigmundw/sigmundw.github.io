@@ -24,7 +24,6 @@ redirect_from:
 
 ### Land Use Changes and Evaluation of Habitat Quality in China’s Coastal Zone
 **Supervisor:** Prof. Chengyi Zhao, [zhaocy@nuist.edu.cn](mailto:zhaocy@nuist.edu.cn)
-
 **Duration:** March 2023 – April 2024
 <img src="https://sigmundw.github.io/images/coast.png" alt="Coast Image" width="250" align="right" style="margin-left: 20px;"/>
 - Simulated land use changes using PLUS model and predicting their impacts on habitat quality.
@@ -35,7 +34,6 @@ redirect_from:
 
 ### Anthropogenic Climate Change Impact on Runoff
 **Supervisor:** Prof. Buda Su, [subd@nuist.edu.cn](mailto:subd@nuist.edu.cn)
-
 **Duration:** September 2022 – February 2024
 <img src="https://sigmundw.github.io/images/cuntan.png" alt="Cuntan Image" width="260" align="right" style="margin-left: 20px;"/>
 - Constructed a Random Forest model using temperature and precipitation under different scenarios to predict runoff patterns.
