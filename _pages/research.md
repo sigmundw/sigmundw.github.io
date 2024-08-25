@@ -11,7 +11,7 @@ redirect_from:
 <div style="border-top: 3px solid #eee; margin: 20px 0;"></div>
 
 ### Climate Impacts on the Length of Sea Ice Season and Ecosystem Response
-<img src="https://sigmundw.github.io/images/IC_change.png" alt="IC Image" width="260" align="right" style="margin-left: 20px;"/>
+<img src="https://sigmundw.github.io/images/IC_change.png" alt="IC Image" width="300" align="right" style="margin-left: 20px;"/>
 
 **Supervisor:** Prof. Paul Myers, [pmyers@ualberta.ca](mailto:pmyers@ualberta.ca)
 
@@ -24,7 +24,7 @@ redirect_from:
 <div style="border-top: 3px solid #eee; margin: 20px 0;"></div>
 
 ### Land Use Changes and Evaluation of Habitat Quality in China’s Coastal Zone
-<img src="https://sigmundw.github.io/images/coast.png" alt="Coast Image" width="250" align="right" style="margin-left: 20px;"/>
+<img src="https://sigmundw.github.io/images/coast.png" alt="Coast Image" width="300" align="right" style="margin-left: 20px;"/>
 
 **Supervisor:** Prof. Chengyi Zhao, [zhaocy@nuist.edu.cn](mailto:zhaocy@nuist.edu.cn)
 
@@ -37,7 +37,7 @@ redirect_from:
 <div style="border-top: 3px solid #eee; margin: 20px 0;"></div>
 
 ### Anthropogenic Climate Change Impact on Runoff
-<img src="https://sigmundw.github.io/images/cuntan.png" alt="Cuntan Image" width="260" align="right" style="margin-left: 20px;"/>
+<img src="https://sigmundw.github.io/images/cuntan.png" alt="Cuntan Image" width="300" align="right" style="margin-left: 20px;"/>
 
 **Supervisor:** Prof. Buda Su, [subd@nuist.edu.cn](mailto:subd@nuist.edu.cn)
 
