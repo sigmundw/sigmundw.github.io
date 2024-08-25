@@ -19,4 +19,4 @@ My research seeks to uncover the mechanisms by which climatic shifts impact the 
 - Arctic oceanography
 - Land Use and Cover Change (LUCC)
 
-Now I am doing a research internship in [the Ocean/Climate Modelling Laboratory, University of Alberta](https://canadian-nemo-ocean-modelling-forum-commuity-of-practice.readthedocs.io/en/latest/Institutions/UofA/index.html#) with [Prof. Paul Myers](https://apps.ualberta.ca/directory/person/pmyers) featuring in “Climate impacts on the length of sea ice season and ecosystem response”.
+Now I am doing a research internship in the [Ocean/Climate Modelling Laboratory](https://canadian-nemo-ocean-modelling-forum-commuity-of-practice.readthedocs.io/en/latest/Institutions/UofA/index.html#), University of Alberta, with [Prof. Paul Myers](https://apps.ualberta.ca/directory/person/pmyers) featuring in “Climate impacts on the length of sea ice season and ecosystem response”.
