@@ -27,8 +27,7 @@ redirect_from:
 ### Anthropogenic Climate Change Impact on Runoff
 **Supervisor:** Prof. Buda Su, [subd@nuist.edu.cn](subd@nuist.edu.cn)
 **Duration:** September 2022 – February 2024
-
-This research examines how anthropogenic climate change affects the runoff patterns in the upper Yangtze River basin. The study involves comparing the impacts of natural variability and human-induced climate change on river discharge. Key tasks include:
+(../image/cuntan.png)
 
 - Constructed a Random Forest model using temperature and precipitation under different scenarios to predict runoff patterns.
 - Evaluated the anthropogenic climate change on runoff by comparing discharge under “anthropogenic + natural” forcing and the discharge under “natural” forcing
