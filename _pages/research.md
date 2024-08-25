@@ -23,7 +23,7 @@ redirect_from:
 
 **Duration:** March 2023 – April 2024
 
-- Simulated land use changes using PLUS and predicting their impacts on habitat quality.
+- Simulated land use changes using PLUS model and predicting their impacts on habitat quality.
 - Quantitatively assessed habitat quality under different scenarios.
 - Identified the driving forces behind changes in habitat quality and the impact of land cover changes on ecosystem degradation.
 
