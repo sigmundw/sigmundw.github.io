@@ -19,7 +19,7 @@ redirect_from:
 
 - Analyzed the changes in sea ice concentration and thickness and their spatial structure in Baffin Bay and Hudson Bay.
 - Evaluated the changes of ice free season by looking at sea ice breakup and freeze-up processes.
-- Examined the impact on ecosystem including phytoplankton productivity and biomass productivity.
+- Examined the correlation between sea ice changes and biogeochemistry pattern.
 
 <div style="border-top: 3px solid #eee; margin: 20px 0;"></div>
 
