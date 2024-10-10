@@ -17,7 +17,7 @@ redirect_from:
 
 **Duration:** July 2024 – October 2024
 
-- Analyzed the changes in sea ice concentration and thickness and their spatial structure in Baffin Bay and Hudson Bay.
+- Analyzed the changes in sea ice concentration and thickness and their spatial structure in the Baffin Bay-Labrador Sea region and Hudson Bay.
 - Evaluated the changes of ice free season by looking at sea ice breakup and freeze-up processes.
 - Examined the correlation between sea ice changes and biogeochemistry pattern.
 
@@ -30,7 +30,7 @@ redirect_from:
 
 **Duration:** March 2023 – April 2024
 
-- Simulated land use changes using PLUS model and predicting their impacts on habitat quality.
+- Simulated land use changes using PLUS model and predicted their impacts on habitat quality.
 - Quantitatively assessed habitat quality under different scenarios.
 - Identified the driving forces behind changes in habitat quality and the impact of land cover changes on ecosystem degradation.
 
