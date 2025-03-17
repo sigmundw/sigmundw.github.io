@@ -11,7 +11,7 @@ I am currently a fourth-year undergraduate student in Physical Geography and Res
 
 I have worked as a research assistant in the [Ocean/Climate Modelling Laboratory](https://canadian-nemo-ocean-modelling-forum-commuity-of-practice.readthedocs.io/en/latest/Institutions/UofA/index.html#), University of Alberta, with [Prof. Paul Myers](https://apps.ualberta.ca/directory/person/pmyers), focusing on “Climate impacts on the length of sea ice season and ecosystem response”.
 
-I have been admitted to the University at Buffalo, supervised by [Dr. Yifan Cheng ](https://arts-sciences.buffalo.edu/earth-sciences/faculty-staff/faculty/cheng-yifan.html), and will begin my graduate study in August 2025.
+I have been admitted to the University at Buffalo, supervised by [Dr. Yifan Cheng](https://arts-sciences.buffalo.edu/earth-sciences/faculty-staff/faculty/cheng-yifan.html), and will begin my graduate study in August 2025.
 <div style="border-top: 3px solid #eee; margin: 20px 0;"></div>
 
 **My research interests include:**
