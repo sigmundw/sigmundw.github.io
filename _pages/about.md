@@ -19,4 +19,4 @@ My research seeks to uncover the mechanisms by which climatic shifts impact the 
 - Arctic oceanography
 <div style="border-top: 3px solid #eee; margin: 20px 0;"></div>
 
-I have been admitted to the University at Buffalo, supervised by [Dr. Yifan Cheng](https://acthydro.com/index.html), and will begin my graduate study in August 2025.
+I have been admitted to the University at Buffalo, supervised by [Dr. Yifan Cheng](https://arts-sciences.buffalo.edu/earth-sciences/faculty-staff/faculty/cheng-yifan.html), and will begin my graduate study in August 2025.
