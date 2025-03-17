@@ -17,7 +17,5 @@ My research seeks to uncover the mechanisms by which climatic shifts impact the 
 - Climate change impacts and adaptation
 - Ecosystem and landscape
 - Arctic oceanography
-- Land Use and Cover Change (LUCC)
 <div style="border-top: 3px solid #eee; margin: 20px 0;"></div>
 
-Now I am doing a research internship in the [Ocean/Climate Modelling Laboratory](https://canadian-nemo-ocean-modelling-forum-commuity-of-practice.readthedocs.io/en/latest/Institutions/UofA/index.html#), University of Alberta, with [Prof. Paul Myers](https://apps.ualberta.ca/directory/person/pmyers) featuring in “Climate impacts on the length of sea ice season and ecosystem response”.
