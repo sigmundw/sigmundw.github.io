@@ -21,14 +21,14 @@ repository               : "sigmundw/homepage.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Junhao.png"
+  avatar           : "IMG_1508.png"
   name             : "Junhao Wang"
   pronouns         : # example: "He/his"  
   bio              : "All the best."
-  location         : "Nanjing, China"
+  location         : "Buffalo, New York"
   employer         : #"Red Brick University"
   uri              : # URL
-  email            : "junhao.wong.geogr@gmail.com" 
+  email            : "jwang436@buffalo.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
