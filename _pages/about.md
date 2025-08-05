@@ -18,6 +18,6 @@ I have been admitted to the University at Buffalo, supervised by [Dr. Yifan Chen
 - Hydroclimatology
 - Climate change impacts and adaptation
 - Ecosystem and process-based land surface models
-- Arctic oceanography
+- Arctic hydrology
 
 
