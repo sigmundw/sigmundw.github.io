@@ -4,8 +4,8 @@
 
 .masthead {
   position: fixed;
-  background: white;
-  border-bottom: 1px solid $border-color;
+  background: rgba(248, 250, 252, 0.92);
+  border-bottom: 1px solid rgba(148, 163, 184, 0.32);
   height: $masthead-height;
   top: 0;
   width: 100%;
@@ -15,11 +15,14 @@
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
   z-index: 20;
+  backdrop-filter: blur(14px);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
 
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 1em 1em 1em;
+    height: 100%;
+    padding: 0 1rem;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -37,6 +40,9 @@
 }
 
 .masthead__menu {
+  height: 100%;
+
+  nav { height: 100%; }
 
   ul {
     margin: 0;
@@ -52,7 +58,23 @@
   white-space: nowrap;
 
   &--lg {
-    padding-right: 3em;
+    padding-right: 2.25rem;
     font-weight: 700;
+
+    a {
+      display: flex !important;
+      flex-direction: column;
+      justify-content: center;
+      line-height: 1.05;
+    }
+
+    small {
+      margin-top: 0.28rem;
+      color: #64748b;
+      font-size: 0.64rem;
+      font-weight: 700;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
   }
 }

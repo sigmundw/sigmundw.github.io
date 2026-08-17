@@ -6,12 +6,13 @@
 
 main:
   - title: "Home"
-    url: /about/
-    
-  - title: "CV"
-    url: https://sigmundw.github.io/assets/JunhaoWang_CV.pdf
+    url: /
 
   - title: "Research"
     url: /research/
- 
 
+  - title: "Publications"
+    url: /publications/
+
+  - title: "CV"
+    url: /cv/

@@ -5,6 +5,8 @@ html {
   /* sticky footer fix */
   position: relative;
   min-height: 100%;
+  scroll-padding-top: calc(#{$masthead-height} + 1rem);
+  background: $body-color;
 }
 
 body {
@@ -13,7 +15,13 @@ body {
   padding-bottom: 9em;
   color: $text-color;
   font-family: $global-font-family;
-  line-height: 1.5;
+  font-size: 1rem;
+  line-height: 1.65;
+  background:
+    linear-gradient(rgba(30, 58, 95, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(30, 58, 95, 0.025) 1px, transparent 1px),
+    $body-color;
+  background-size: 40px 40px;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -25,7 +33,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
   font-family: $header-font-family;
-  font-weight: bold;
+  color: #162f4b;
+  font-weight: 600;
+  letter-spacing: -0.018em;
 }
 
 h1 {
@@ -112,6 +122,10 @@ blockquote {
 /* links */
 
 a {
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+  transition: $global-transition;
+
   &:focus {
     @extend %tab-focus;
   }
@@ -119,6 +133,48 @@ a {
   &:hover,
   &:active {
     outline: 0;
+  }
+}
+
+:focus-visible {
+  outline: 3px solid #b45309;
+  outline-offset: 3px;
+}
+
+::selection {
+  color: #0f2740;
+  background: #dbeafe;
+}
+
+body > .skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 1000;
+  padding: 0.65rem 1rem;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: $border-radius;
+  background: $primary-color;
+  transform: translateY(-150%);
+
+  &:focus {
+    color: #fff;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
   }
 }
 

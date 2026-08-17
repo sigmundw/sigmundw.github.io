@@ -8,13 +8,13 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Junhao Wang / Homepage"
+title                    : "Junhao Wang"
 title_separator          : "-"
 name                     : &name "Junhao Wang"
-description              : &description "personal description"
+description              : &description "Junhao Wang is a Ph.D. student at the University at Buffalo studying Arctic hydrology and Alaska's changing water balance."
 url                      : https://sigmundw.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "sigmundw/homepage.github.io"
+repository               : "sigmundw/sigmundw.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -24,9 +24,9 @@ author:
   avatar           : "IMG_1508.png"
   name             : "Junhao Wang"
   pronouns         : # example: "He/his"  
-  bio              : "All the best."
+  bio              :
   location         : "Buffalo, New York"
-  employer         : #"Red Brick University"
+  employer         : "University at Buffalo"
   uri              : # URL
   email            : "jwang436@buffalo.edu" 
 
@@ -43,7 +43,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : #"academicpages"
+  github           : "sigmundw"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "junhao-wang-40983b2a4"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
