@@ -16,7 +16,7 @@
   border: 1px solid rgba(148, 163, 184, 0.3);
   border-radius: 16px;
   background: rgba(#fff, 0.82);
-  box-shadow: 0 14px 36px rgba(15, 23, 42, 0.055);
+  box-shadow: none;
 
   @include breakpoint($large) {
     position: sticky;
@@ -96,19 +96,19 @@
 
   img {
     aspect-ratio: 4 / 5;
-    max-width: 190px;
+    max-width: 156px;
     border-radius: 12px;
     object-fit: cover;
     object-position: center 30%;
 
     @include breakpoint($large) {
       display: block;
-      width: min(100%, 190px);
-      margin-inline: auto;
+      width: min(100%, 156px);
+      margin-inline: 0;
       padding: 0;
       border: 1px solid rgba(148, 163, 184, 0.28);
-      border-radius: 50%;
-      box-shadow: 0 10px 26px rgba(15, 23, 42, 0.12);
+      border-radius: 6px;
+      box-shadow: none;
     }
   }
 }
@@ -126,7 +126,7 @@
     margin-bottom: 1.25rem;
     padding-left: 0;
     padding-right: 0;
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -140,12 +140,12 @@
 }
 .sidebar .author__name {
   color: $primary-color;
-  font-family: $serif;
+  font-family: $sans-serif;
   font-size: 1.2rem;
   font-weight: 600;
 
   @include breakpoint($large) {
-    font-size: 1.45rem;
+    font-size: 1.25rem;
     line-height: 1.1;
   }
 }
@@ -307,7 +307,7 @@
     width: 1.25em;
     margin-right: 0.65em;
     padding-right: 0;
-    text-align: center;
+    text-align: left;
   }
 
   a {
@@ -326,4 +326,19 @@
       transform: translateX(2px);
     }
   }
+}
+
+/* Keep the compact profile readable on narrow screens. */
+@media screen and (max-width: 1023px) {
+  .sidebar > [itemscope] {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .author__avatar { display: block; width: 44px; flex-shrink: 0; }
+  .author__content { display: block; padding: 0; }
+  .sidebar .author__name { font-size: 1rem; }
+  .author__urls-wrapper { display: block; margin-left: auto; }
+  .author__urls-wrapper button { padding: 0.65em 0.8em; font-size: 0.65rem; }
 }

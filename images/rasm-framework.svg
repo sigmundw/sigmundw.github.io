@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="760" viewBox="0 0 900 760" role="img" aria-labelledby="title desc">
+<title id="title">RASM model framework</title>
+<desc id="desc">Redrawn from the supplied framework. Atmosphere WRF 3 and land CTSM exchange fluxes through CPL 7. Prescribed ERA5 sea-surface temperature and ERA5 sea ice feed the coupler. CTSM feeds offline MizuRoute streamflow routing. The four atmosphere–coupler arrows retain the supplied directions: one atmosphere-to-coupler and three coupler-to-atmosphere. Colors identify the components as in the supplied diagram; no flux magnitudes are implied.</desc>
+<defs>
+  <marker id="atmosphere" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#b44c79"/></marker>
+  <marker id="ocean" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#368375"/></marker>
+  <marker id="ice" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#b98229"/></marker>
+  <marker id="land" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#956743"/></marker>
+  <marker id="legend" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#697782"/></marker>
+</defs>
+<rect width="900" height="760" rx="24" fill="#fff"/>
+<!-- Connectivity and arrow directions follow the supplied original. -->
+<g fill="none" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M395 175V324" stroke="#b44c79" marker-end="url(#atmosphere)"/>
+  <path d="M430 325V176" stroke="#b98229" marker-end="url(#ice)"/>
+  <path d="M465 325V176" stroke="#956743" marker-end="url(#land)"/>
+  <path d="M500 325V176" stroke="#368375" marker-end="url(#ocean)"/>
+  <path d="M255 300 339 360" stroke="#368375" marker-end="url(#ocean)"/>
+  <path d="M645 300 561 360" stroke="#b98229" marker-end="url(#ice)"/>
+  <path d="M425 440V569" stroke="#b44c79" marker-end="url(#atmosphere)"/>
+  <path d="M475 570V441" stroke="#956743" marker-end="url(#land)"/>
+  <path d="M340 627H256" stroke="#956743" marker-end="url(#land)"/>
+</g>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" text-anchor="middle">
+  <g>
+    <rect x="340" y="45" width="220" height="130" rx="20" fill="#fbf0f5" stroke="#e7c5d5"/>
+    <text x="450" y="94" fill="#873859" font-size="23" font-weight="500">Atmosphere</text>
+    <text x="450" y="139" fill="#272b30" font-size="34" font-weight="600">WRF 3</text>
+  </g>
+  <g>
+    <rect x="35" y="200" width="220" height="140" rx="20" fill="#edf6f2" stroke="#c1ded4"/>
+    <text x="145" y="238" fill="#316f63" font-size="23" font-weight="500">Ocean</text>
+    <text x="145" y="277" fill="#272b30" font-size="29" font-weight="600">ERA5 SST</text>
+    <text x="145" y="314" fill="#536b63" font-size="19">Prescribed</text>
+  </g>
+  <g>
+    <rect x="645" y="200" width="220" height="140" rx="20" fill="#fcf5e8" stroke="#e9d6b5"/>
+    <text x="755" y="238" fill="#936b2e" font-size="23" font-weight="500">Sea ice</text>
+    <text x="755" y="277" fill="#272b30" font-size="29" font-weight="600">ERA5</text>
+    <text x="755" y="314" fill="#78694d" font-size="19">Prescribed</text>
+  </g>
+  <g>
+    <rect x="340" y="325" width="220" height="115" rx="20" fill="#1b3043"/>
+    <text x="450" y="370" fill="#c1d3e2" font-size="23" font-weight="500">Coupler</text>
+    <text x="450" y="412" fill="#fff" font-size="34" font-weight="600">CPL 7</text>
+  </g>
+  <g>
+    <rect x="340" y="570" width="220" height="130" rx="20" fill="#f7f0eb" stroke="#dfccbe"/>
+    <text x="450" y="618" fill="#805a3d" font-size="23" font-weight="500">Land</text>
+    <text x="450" y="661" fill="#272b30" font-size="34" font-weight="600">CTSM</text>
+  </g>
+  <g>
+    <rect x="35" y="550" width="220" height="140" rx="20" fill="#eef5fc" stroke="#c3d9ed"/>
+    <text x="145" y="588" fill="#336f9f" font-size="23" font-weight="500">Streamflow</text>
+    <text x="145" y="627" fill="#272b30" font-size="29" font-weight="600">MizuRoute</text>
+    <text x="145" y="664" fill="#536f87" font-size="19">Offline</text>
+  </g>
+</g>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" fill="#697782" font-size="18">
+  <rect x="650" y="570" width="38" height="28" rx="7" fill="#fff" stroke="#a8b3bd"/>
+  <text x="705" y="591">Model component</text>
+  <path d="M650 632H688" fill="none" stroke="#697782" stroke-width="2.5" marker-end="url(#legend)"/>
+  <text x="705" y="639">Fluxes</text>
+</g>
+</svg>

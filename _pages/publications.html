@@ -3,6 +3,9 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+profile_page: true
+page_eyebrow: "Research outputs"
+page_description: "Published work in environmental change and Earth science."
 ---
 
 {% if site.author.googlescholar %}
@@ -20,7 +23,7 @@ author_profile: true
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <h2>{{ category[1].title }}</h2>
         {% assign title_shown = true %}
       {% endunless %}
       {% include archive-single.html %}

@@ -3,6 +3,9 @@ layout: archive
 title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
+profile_page: true
+page_eyebrow: "Academic background"
+page_description: "Education, research experience, and publications."
 redirect_from:
   - /resume
 ---
